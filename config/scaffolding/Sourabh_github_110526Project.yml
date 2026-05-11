@@ -7,3 +7,27 @@ packages:
   gitUrl: https://github.com/sourabh-harkawat-0058QC744
   gitUsername: sourabh-harkawat-0058QC744
   gitBranch: main
+- name: LowerFSPackage
+  gitServerName: srcCtrl_github_Sourabh_shared1
+  gitUrl: https://github.com/sourabh-harkawat-0058QC744
+  gitUsername: sourabh-harkawat-0058QC744
+  gitBranch: nested1/nested2
+services:
+- serviceName: project.sourabh_github_110526.integrations:sadasd
+  packages:
+  - name: Sourabh_github_110526Project
+    version: "1.0"
+  - name: LowerFSPackage
+    version: "2.0"
+- serviceName: pub.flow:debugLog
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.828
+- serviceName: LowerFSPackage:lowerFS
+  packages:
+  - name: LowerFSPackage
+    version: "2.0"
+- serviceName: pub.string:toLower
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.828
