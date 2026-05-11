@@ -112,7 +112,7 @@
 </MAP>
 </INVOKE>
 
-<INVOKE NAME="LowerFSPackage" SERVICE="LowerFSPackage:lowerFS" DISABLED="true">
+<INVOKE NAME="LowerFSPackage" SERVICE="LowerFSPackage:lowerFS">
   <COMMENT></COMMENT>
 </INVOKE>
 </FLOW>
